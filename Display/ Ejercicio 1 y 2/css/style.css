@@ -1,0 +1,9 @@
+.lista{
+    display: inline;
+    margin-right: 12px;
+}
+#texto{
+    width: 86%;
+    margin: auto;
+    max-width: 600px;
+}
