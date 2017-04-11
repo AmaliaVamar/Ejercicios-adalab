@@ -1,0 +1,33 @@
+*{
+box-sizing: border-box;
+  margin: 0px;
+  position: absolute;
+}
+
+.div1{
+width: 500px;
+height: 500px;
+background-color: yellow;
+padding: 40px;
+border: 2px solid grey;
+top: 0px;
+left: 0px;
+}
+
+.div2{
+width: 300px;
+height: 300px;
+background-color: green;
+padding: 75px;
+top: 100px;
+left: 100px;
+}
+
+.div3{
+width: 150px;
+height: 150px;
+background-color: blue;
+border: 20px dotted grey;
+top: 175px;
+left: 175px;
+}
