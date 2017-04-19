@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: stretch;
+
+}
+.div1{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    order:1;
+}
+.div2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    order: 3;
+}
+.div3{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    order: 2;
+}
+.div4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}

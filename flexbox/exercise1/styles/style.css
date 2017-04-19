@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+.container{
+    display:flex;
+    max-width: 960px;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    background-color: orange;
+    width: 100%;
+}
+.aside1{
+    background-color: yellow;
+    width: 25%;
+}
+.article{
+    background-color: blue;
+    width: 50%;
+}
+.aside2{
+    background-color: pink;
+    width: 25%;
+}
+.footer{
+    background-color: green;
+    width: 100%;
+}
