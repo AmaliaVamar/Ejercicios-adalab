@@ -5,6 +5,7 @@ var nameElement = document.getElementById("Name");
 var imgElement = document.getElementById("Img");
 var repoElement = document.getElementById("Repo");
 var noExist = document.getElementById("noexist");
+var resultElement= document.getElementById("result");
 
 function sendRequest(){
   var request = new XMLHttpRequest();
@@ -15,15 +16,18 @@ function sendRequest(){
   request.onload = function(){
     if (request.status >= 200 && request.status < 400){
       var user = JSON.parse(request.response)
+      resultElement.classList.add("show");
       nameElement.innerText = user.login;
       imgElement.src = user.avatar_url;
       repoElement.innerText = user.public_repos;
       noExist.innerHTML = "";
+
     }else{
       noExist.innerHTML = "El usuario no existe";
       nameElement.innerText = "";
       imgElement.src = "";
       repoElement.innerText = "";
+      resultElement.classList.remove("show");
     }
   };
 
