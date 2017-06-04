@@ -6,18 +6,25 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: grey; }
+  background-color: #2e7059; }
 
-.div1 {
+h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 100px; }
+
+.title {
   height: 300px;
   width: 70%;
-  background-color: blue;
+  background-color: #104544;
   margin: 0 auto; }
 
-.content1 {
+.content {
   height: 1200px;
   width: 70%;
-  background-color: yellow;
+  background-color: #8a3574;
   margin: 0 auto; }
 
 /*BARRA DE NAVEGACIÓN VERSIÓN MÓVIL*/
