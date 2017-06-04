@@ -89,8 +89,6 @@ h2{
 
 .nav-small{
   list-style: none;
-  padding-left: 0;
-  padding-right: 0;
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
@@ -136,7 +134,6 @@ h2{
 .sub-nav-show{
   max-height: 500px;
   transition: max-height 0.50s ease-in;
-
 }
 
 .subnav-items:last-child{
@@ -152,6 +149,7 @@ h2{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .subnav-links:active{
   color: #18bfef;
 }
@@ -161,9 +159,11 @@ h2{
   .btn-menu{
       display:none;
   }
+
   .menu{
     width: 100%;
   }
+
   .nav{
       display: flex;
       width: 90%;
@@ -207,11 +207,10 @@ h2{
       display: none;
   }
   .fixed{
-    position: fixed;
-    top:0;
-    background-color: rgba(54,54,54, 0.9);
-    //border-bottom: 1px solid black;
-    transition: 1.2s;
+      position: fixed;
+      top:0;
+      background-color: rgba(54,54,54, 0.9);
+      transition: 1.2s;
   }
 
 

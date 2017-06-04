@@ -26,7 +26,6 @@ btnSubnav.addEventListener("click",openCloseSubNav);
 
 
 //Fijar la barra de navegación
-positionMenu();
 
 $(window).scroll(function() {
   positionMenu();
@@ -38,7 +37,7 @@ function positionMenu() {
 
   if ($(window).scrollTop() >= headerHeight){
     $('.menu').addClass('fixed');
-    $('.content').css('margin-top', (menuHeight) + 'px');
+    $('.content').css('margin-top', menuHeight + 'px');
   } else {
     $('.menu').removeClass('fixed');
     $('.content').css('margin-top', '0');
