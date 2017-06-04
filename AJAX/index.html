@@ -3,18 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Buscador de usuarios en Github</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <h1>Buscador de usuarios en Github</h1>
-      <input type="text" name="" value="" placeholder="Escribe el nombre">
-      <button type="button" name="button">Buscar</button>
-    <h2> Resultados </h2>
-    <h3>Nombre</h3>
-      <p></p>
-    <h3>Foto</h3>
-      <img src="" alt="">
-    <h3>Número de repositorios</h3>
-      <p></p>
+    <div class="container">
 
+      <h1>Buscador de usuarios en Github</h1>
+
+      <form class="" action="index.html" method="get">
+          <input id="text-to-search" type="text" name="" value="" placeholder="Escribe el nombre">
+          <input type="button" id= "button"  name="button" value="Buscar">
+      </form>
+
+      <h2> Resultados </h2>
+      <p id="noexist"></p>
+
+      <h3>Nombre</h3>
+        <p id="Name"></p>
+
+      <h3>Foto</h3>
+        <img id="Img" src="" alt="">
+
+      <h3>Número de repositorios</h3>
+        <p id="Repo"></p>
+
+    </div>
+
+
+  <script type="text/javascript" src="js/main.js" ></script>
   </body>
 </html>
