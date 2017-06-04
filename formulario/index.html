@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class = "container">
+        <h1>Create an account </h1>
+        <h2>It's free and always will be.</h2>
+
+        <form id="formIndex" action="index.html" method="post">
+
+          <div class="name">
+            <input type="text" class="input-style" name="firstname" value="" placeholder="First name">
+            <input type="text" class="input-style" name="surname" value="" placeholder="Surname">
+          </div>
+
+
+          <div class="data">
+
+            <input id="email" class="input-style" type="text" name="email" value="" placeholder="Email or mobile number">
+            <input id="re-email" class="input-style" type="text" name="re-enter" value="" placeholder="Re-enter email or mobile number">
+            <input type="password" class="input-style" name="password" value="" placeholder="New password">
+
+          </div>
+
+          <h3>Birthday</h3>
+          <div class="select">
+            <select id="selectday" class="" name="" value="Day">
+              <option id="day" value="">Day</option>
+            </select>
+
+            <select id="selectMonth" class="" name="" value="Month">
+              <option id="month" value="">Month</option>
+            </select>
+
+            <select id="selectYear" class="" name="" value="Year">
+              <option id="year"value="">Year</option>
+            </select>
+
+            <a href="#">Why do I need to provide my date of birth?</a>
+          </div>
+
+
+          <div class="genders">
+
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+
+          </div>
+
+
+          <div class="button-container">
+            <input id ="button" class="btn" type="button" name="Button" value="Create an account">
+          </div>
+
+          <p id="error" class="error-send"></p>
+        </form>
+
+
+
+    </div>
+
+
+
+  <script type="text/javascript" src="js/main.js">
+  </script>
+  </body>
+</html>
