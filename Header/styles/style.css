@@ -17,13 +17,15 @@ h2 {
 
 .title {
   height: 300px;
-  width: 70%;
+  width: 90%;
+  max-width: 900px;
   background-color: #104544;
   margin: 0 auto; }
 
 .content {
   height: 1200px;
-  width: 70%;
+  width: 90%;
+  max-width: 900px;
   background-color: #8a3574;
   margin: 0 auto; }
 
