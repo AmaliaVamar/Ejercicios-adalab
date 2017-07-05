@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="calc-container">
+        <div class="converter-content">
+          <div>
+            <p class="converter-title">Calculadora de dosis</p>
+          </div>
+          <form class="converter-form" action="index.html" method="post">
+            <div class="converter-products">
+              <input id="mgProduct" class="converter-input converter-product" onkeyup="alarmMgProduct()" type="number" name="number" pattern="[0-9]*" inputmode="numeric" placeholder="mg">
+              <p class="converter-text product-separation">/</p>
+              <input id="mlProduct" class="converter-input converter-product" onkeyup="alarmMlProduct()" type="number" name="number" pattern="[0-9]*" inputmode="numeric" placeholder="ml">
+            </div>
+            <p class="converter-text">mg /ml que contiene el medicamento</p>
+            <p class="converter-text">(ver envase)</p>
+            <input id="catWeight" class="converter-input converter-cat" onkeyup="alarmCatWeight()" type="number" name="number" pattern="[0-9]*" inputmode="numeric" placeholder="Peso del gato en gr">
+            <input id="mgDose" class="converter-input converter-cat" onkeyup="alarmMgDose()" type="number" name="number" pattern="[0-9]*" inputmode="numeric" placeholder="mg/Kg (ver posología del medicamento)">
+
+            <input id="mlResult" class="converter-button converter-btn-hover" type="submit" name="Convertir" value="Obtener la dosis en ml">
+
+            <div id="modalDose" class="modal-wrapper">
+              <div class="modal">
+                <p id="modalText" class="modal-text"></p>
+                <input id="modalInput" class="modal-input" type="button" value="Ok">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
